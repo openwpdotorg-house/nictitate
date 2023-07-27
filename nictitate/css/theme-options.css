@@ -1,0 +1,61 @@
+#theme-option {
+    position:fixed;
+    top:100px;
+    z-index:99999;
+}
+#theme-option .theme-opt-wrapper {
+    width:139px;
+    background:#FFF;
+    border:1px solid #33bee5;
+    padding:10px 0px 20px 20px;
+    float:left;
+}
+.theme-opt-wrapper p {
+    float:left;
+    display:block;
+    width:100%;
+    background:none;
+}
+.theme-opt-wrapper .btn {
+    display:inline-block;
+    margin-top:5px;
+	border:none;
+	color:#fff;
+	background:#33bee5;
+	border-radius:0;
+}
+.theme-opt-wrapper .btn:hover {
+	background:#141414;
+}	
+		
+#theme-option .open-close-button {
+    width:30px;
+    height:40px;
+    float:left;
+    margin:0;
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    border:1px solid #33bee5;
+	background-color:#fff;
+    margin-left:-1px;
+    border-left:0;
+	outline:none;
+	line-height:44px;
+	text-align:center;
+	color:#33bee5;
+	font-size:16px;
+}
+
+.kopa-select-layout label{
+    display: inline-block;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-size:12px;
+    line-height:20px;
+}
+.kopa-select-layout input[type=radio]{
+    margin: 0px;
+}
+

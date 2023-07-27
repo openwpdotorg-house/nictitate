@@ -1,0 +1,179 @@
+Theme : Nictitate (wordpress.org release)
+Version : 1.1.3
+Author : Kopatheme - http://kopatheme.com
+
+Oct 10 2014 - 1.1.4
+==========================================================
+- update validate comment
+
+Sep 3 2014 - 1.1.3
+===========================================================
+- fixed bug when enter " in theme options
+
+Aug 6 2014 - 1.1.2
+===========================================================
+- Provide the license for the slider image in screenshot
+
+
+
+Aug 1 2014 - 1.1.1
+===========================================================
+- Removed: folder plugins.
+
+- Edited: comments.php, 
+
++ Replace:
+if (post_password_required() || !comments_open()):
+    return;
+else:
+
++ By:
+if ( post_password_required() ) {
+	return;
+}
+
+- Moved: favicon & apple icon to filter wp_head. (this featured turned off by default)
+
+- Edited: searchform.php
+
++ Replace:
+esc_url(home_url()); 
+
++ By:
+esc_url(home_url('/'));
+
+
+
+July 24 2014 - 1.1.0
+===========================================================
+- Fixed: footer info allow HTML tag
+- Fixed: sub-menu level 3 invalid
+- Fixed: remove default icon "home" on Main Menu
+- Removed: shortcode: audio, soundcloud 
+
+
+June 24 2014 - 1.0.10
+===========================================================
+- Changed: reduce delay time of main-menu
+
+March 07 2014 - 1.0.9
+===========================================================
+- Fixed: issue with background of testimonial widget content
+- Fixed: the date on post navigation cannot be translated
+
+February 24 2014 - 1.0.8
+===========================================================
+- Added: show/hide header top links option
+- Changed: version number - style.css
+
+February 14 2014 - 1.0.7
+===========================================================
+- Added: option for enable/disable sticky main menu feature
+- Changed: version number - style.css
+
+February 06 2014 - 1.0.6
+===========================================================
+- Updated: print content of front-page
+- Updated: default copyright text
+- Updated: localization files
+- Fixed: logo cannot be displayed on IE8
+- Changed: version number - style.css
+
+January 24 2014 - 1.0.5
+===========================================================
+- Added: sticky menu
+- Updated: localization files
+- Changed: version number - style.css
+
+January 11 2014 - 1.0.4
+===========================================================
+- Removed: custom background options in theme options
+- Removed: logo upload option in theme options
+- Removed: animated header scripts and sticky header
+- Updated: header.php and searchform.php: use esc_url(home_url()) instead of home_url()
+- Updated: use core custom background feature
+- Updated: use core custom header feature
+- Updated: localization files
+- Changed: version number - style.css
+
+January 10 2014 - 1.0.3
+===========================================================
+- Updated: wrap comment text in comment-content div
+ 	comments.php
+
+- Updated: condition for gallery post format 
+ 	content-gallery.php
+
+- Updated: clearing float for page template
+ 	content-page.php
+
+- Removed: social sharing links
+	content-single.php
+	library/includes/cpanel/theme-options/post.php
+	library/front.php
+
+- Updated: styles for table, unordered list, ordered list and definition list
+ 	css/extra.css
+
+- Updated: get_template_directory()
+	functions.php
+
+- Removed: ie js in header
+    header.php
+
+- Updated: copyright
+    js/retina.js
+    js/set-view-count.js
+
+- Removed: styleswitch.js
+
+- Updated: add image sizes
+
+- Removed: google tracking code options
+ 	library/includes/cpanel/theme-options/general.php
+ 	library/front.php
+
+- Updated: register custom post types widgets when tookit is activated
+
+- Updated: register sidebar via widgets_init hook
+ 	library/ini.php
+
+- Removed: icomoon stylesheet
+ 	library/kopa.php
+
+- Updated: use home_url instead of esc_url( home_url() )
+  	header.php
+  	searchform.php
+
+- Updated: version number
+ 	style.css
+
+- Updated: display site title if logo is empty
+
+- Updated: text logo styles
+
+- Updated: localization files
+
+- Updated: theme tags
+
+- Updated: 880x660 screenshot
+
+January 6 2014 - 1.0.2
+===========================================================
+Updated: theme uri
+Updated: combine custom post types and shortcodes to a toolkit plugin
+Updated: combine theme options, sidebar manager and layout manager into one page with 3 tabs
+Updated: copyright declaration
+Replaced: icomoon by fontawesome
+Removed: isotope jquery plugin
+Removed: update message in admin pages
+Removed: some defined url - functions.php
+Removed: jquery-1.8.3.min
+
+December 17 2013 - 1.0.1
+===========================================================
+Updated: built-in shortcodes plugin v1.0.1
+Updated: external and static page url options for services
+Updated: tgmpa class
+Fixed: option for switching between wide and box layout
+

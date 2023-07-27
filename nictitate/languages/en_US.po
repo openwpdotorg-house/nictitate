@@ -1,0 +1,1981 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nictitate v1.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-07 04:47:32+0000\n"
+"Last-Translator: thanh4890 <thanh4890@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ nictitate
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+#@ nictitate
+msgid "Page not found..."
+msgstr ""
+
+#: 404.php:13
+#@ nictitate
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it we'll try to fix it. In the meantime, try one of this options:"
+msgstr ""
+
+#: 404.php:15
+#@ nictitate
+msgid "Go back to previous page"
+msgstr ""
+
+#: 404.php:16
+#@ nictitate
+msgid "Go to homepage"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:155
+#: functions.php:86
+#@ tgmpa
+#@ nictitate
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:156
+#: functions.php:87
+#@ tgmpa
+#@ nictitate
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:157
+#: functions.php:88
+#, php-format
+#@ tgmpa
+#@ nictitate
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:158
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:159
+#, php-format
+#@ nictitate
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:160
+#, php-format
+#@ nictitate
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:161
+#: functions.php:92
+#, php-format
+#@ nictitate
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:162
+#, php-format
+#@ nictitate
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:163
+#, php-format
+#@ nictitate
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:164
+#: functions.php:95
+#, php-format
+#@ nictitate
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:165
+#, php-format
+#@ nictitate
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:166
+#: functions.php:97
+#, php-format
+#@ nictitate
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:167
+#: functions.php:98
+#@ nictitate
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:168
+#: functions.php:99
+#@ nictitate
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:169
+#: functions.php:100
+#@ tgmpa
+#@ nictitate
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:170
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:171
+#: class-tgm-plugin-activation.php:1840
+#: functions.php:101
+#@ tgmpa
+#@ nictitate
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:173
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:174
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1085
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1090
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1093
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1097
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1103
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1105
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1291
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1292
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1293
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1294
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1312
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1313
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: class-tgm-plugin-activation.php:1538
+#: class-tgm-plugin-activation.php:172
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:1823
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1825
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1826
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1827
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1828
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1839
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1949
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#: class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#: class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1951
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1956
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1960
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2052
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: comments.php:3
+#@ nictitate
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:12
+#@ nictitate
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:565
+#: library/includes/ajax.php:598
+#: library/includes/ajax.php:628
+#: library/includes/ajax.php:650
+#: library/includes/ajax.php:692
+#@ nictitate
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:565
+#: library/includes/ajax.php:598
+#: library/includes/ajax.php:628
+#: library/includes/ajax.php:650
+#: library/includes/ajax.php:692
+#@ nictitate
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:58
+#@ nictitate
+msgid "Edit"
+msgstr ""
+
+#: comments.php:79
+#@ nictitate
+msgid "Name <span>(required):</span>"
+msgstr ""
+
+#: comments.php:85
+#@ nictitate
+msgid "Email <span>(required):</span>"
+msgstr ""
+
+#: comments.php:91
+#@ nictitate
+msgid "Website"
+msgstr ""
+
+#: comments.php:99
+#: comments.php:104
+#@ nictitate
+msgid "Your comment <span>(required):</span>"
+msgstr ""
+
+#: comments.php:113
+#, php-format
+#@ nictitate
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:114
+#, php-format
+#@ nictitate
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:114
+#@ nictitate
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:114
+#@ nictitate
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:119
+#@ nictitate
+msgid "Leave a comment<span data-icon=\"&#xf040;\"></span>"
+msgstr ""
+
+#: comments.php:120
+#@ nictitate
+msgid "Reply"
+msgstr ""
+
+#: comments.php:121
+#: library/custom-menu/edit_custom_walker.php:227
+#@ nictitate
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:122
+#: library/front.php:279
+#: library/includes/widgets.php:2646
+#@ nictitate
+msgid "Submit"
+msgstr ""
+
+#: content-audio.php:22
+#: content-gallery.php:59
+#: content-video.php:25
+#: content.php:25
+#: library/includes/widgets.php:304
+#@ nictitate
+msgid "Read more"
+msgstr ""
+
+#: content-notfound.php:1
+#@ nictitate
+msgid "Not Found"
+msgstr ""
+
+#: content-page-title.php:8
+#: searchform.php:6
+#@ nictitate
+msgid "Search"
+msgstr ""
+
+#: footer.php:57
+#@ nictitate
+msgid "Back to Top"
+msgstr ""
+
+#: functions.php:89
+#@ nictitate
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:90
+#, php-format
+#@ nictitate
+msgid "This theme requires the following plugin: %1$s. If you currently use the built-in plugin (pre-packaged plugin, e.g. shortcode...) from another WordPress themes by Kopatheme, please deactivate and delete the plugin before installing."
+msgid_plural "This theme requires the following plugins: %1$s. If you currently use the built-in plugins (pre-packaged plugins, e.g. shortcode...) from another WordPress themes by Kopatheme, please deactivate and delete the plugins before installing."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:91
+#, php-format
+#@ nictitate
+msgid "This theme recommends the following plugin: %1$s. If you currently use the built-in plugin (pre-packaged plugin, e.g. shortcode...) from another WordPress themes by Kopatheme, please deactivate and delete the plugin before installing."
+msgid_plural "This theme recommends the following plugins: %1$s. If you currently use the built-in plugins (pre-packaged plugins, e.g. shortcode...) from another WordPress themes by Kopatheme, please deactivate and delete the plugins before installing."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:93
+#, php-format
+#@ nictitate
+msgid "The following required plugin is currently inactive: %1$s. If you currently use the built-in plugin (pre-packaged plugin, e.g. shortcode...) from another WordPress themes by Kopatheme, please delete the plugin and install the pre-packaged plugin comes with this theme."
+msgid_plural "The following required plugins are currently inactive: %1$s. If you currently use the built-in plugins (pre-packaged plugins, e.g. shortcode...) from another WordPress themes by Kopatheme, please delete the plugins and install the pre-packaged plugins come with this theme."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:94
+#, php-format
+#@ nictitate
+msgid "The following recommended plugin is currently inactive: %1$s. If you currently use the built-in plugin (pre-packaged plugin, e.g. shortcode...) from another WordPress themes by Kopatheme, please delete the plugin and install the pre-packaged plugin comes with this theme."
+msgid_plural "The following recommended plugins are currently inactive: %1$s. If you currently use the built-in plugins (pre-packaged plugins, e.g. shortcode...) from another WordPress themes by Kopatheme, please delete the plugins and install the pre-packaged plugins come with this theme."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:96
+#, php-format
+#@ nictitate
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s. If the plugin is built-in plugin (pre-packaged plugin, e.g. shortcode...) of this theme, please deactivate and delete its current version before installing its latest version comes with this theme."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s. If the plugins are built-in plugins (pre-packaged plugins, e.g. shortcode...) of this theme, please deactivate and delete their current version before installing their latest version come with this theme."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:102
+#, php-format
+#@ nictitate
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: header.php:66
+#@ nictitate
+msgid "Logo"
+msgstr ""
+
+#: header.php:88
+#@ nictitate
+msgid "Menu"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: library/custom-menu/edit_custom_walker.php:77
+#, php-format
+#@ nictitate
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: library/custom-menu/edit_custom_walker.php:81
+#, php-format
+#@ nictitate
+msgid "%s (Pending)"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:94
+#@ nictitate
+msgid "sub item"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:109
+#@ default
+msgid "Move up"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:122
+#@ default
+msgid "Move down"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:124
+#: library/custom-menu/edit_custom_walker.php:126
+#@ default
+#@ nictitate
+msgid "Edit Menu Item"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:135
+#@ nictitate
+msgid "URL"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:142
+#@ nictitate
+msgid "Navigation Label"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:148
+#@ nictitate
+msgid "Title Attribute"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:155
+#@ nictitate
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:160
+#@ nictitate
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:166
+#@ nictitate
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:172
+#: library/includes/widgets.php:2731
+#@ nictitate
+msgid "Description"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:174
+#@ nictitate
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:180
+#@ nictitate
+msgid "Move"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:181
+#@ nictitate
+msgid "Up one"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:182
+#@ nictitate
+msgid "Down one"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:185
+#@ nictitate
+msgid "To the top"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:196
+#@ nictitate
+msgid "Icon"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:198
+#@ nictitate
+msgid "None"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:203
+#@ nictitate
+msgid "Home icon will be displayed by default if no icons chosen"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:213
+#, php-format
+#@ nictitate
+msgid "Original: %s"
+msgstr ""
+
+#: library/custom-menu/edit_custom_walker.php:226
+#@ nictitate
+msgid "Remove"
+msgstr ""
+
+#: library/front.php:24
+#@ nictitate
+msgid "Main Menu"
+msgstr ""
+
+#: library/front.php:25
+#@ nictitate
+msgid "Bottom Menu"
+msgstr ""
+
+#: library/front.php:280
+#@ nictitate
+msgid "Sending..."
+msgstr ""
+
+#: library/front.php:283
+#@ nictitate
+msgid "Please enter your name."
+msgstr ""
+
+#: library/front.php:284
+#: library/front.php:296
+#@ nictitate
+msgid "At least {0} characters required."
+msgstr ""
+
+#: library/front.php:287
+#@ nictitate
+msgid "Please enter your email."
+msgstr ""
+
+#: library/front.php:288
+#@ nictitate
+msgid "Please enter a valid email."
+msgstr ""
+
+#: library/front.php:291
+#@ nictitate
+msgid "Please enter your url."
+msgstr ""
+
+#: library/front.php:292
+#@ nictitate
+msgid "Please enter a valid url."
+msgstr ""
+
+#: library/front.php:295
+#@ nictitate
+msgid "Please enter a message."
+msgstr ""
+
+#: library/front.php:52
+#: library/front.php:311
+#@ nictitate
+msgid "Single Post Thumbnail (Kopatheme)"
+msgstr ""
+
+#: library/front.php:53
+#: library/front.php:312
+#@ nictitate
+msgid "Thumbnail pm posts list widget (Kopatheme)"
+msgstr ""
+
+#: library/front.php:54
+#: library/front.php:313
+#@ nictitate
+msgid "Testimonial avatar (Kopatheme)"
+msgstr ""
+
+#: library/front.php:55
+#: library/front.php:314
+#@ nictitate
+msgid "Post Carousel Thumbnail (Kopatheme)"
+msgstr ""
+
+#: library/front.php:56
+#: library/front.php:315
+#@ nictitate
+msgid "Client Logo (Kopatheme)"
+msgstr ""
+
+#: library/front.php:57
+#: library/front.php:316
+#@ nictitate
+msgid "Portfolio Thumbnail 1 (Kopatheme)"
+msgstr ""
+
+#: library/front.php:58
+#: library/front.php:317
+#@ nictitate
+msgid "Portfolio Thumbnail 2 (Kopatheme)"
+msgstr ""
+
+#: library/front.php:59
+#: library/front.php:318
+#@ nictitate
+msgid "Portfolio Thumbnail 3 (Kopatheme)"
+msgstr ""
+
+#: library/front.php:60
+#: library/front.php:319
+#@ nictitate
+msgid "Portfolio Thumbnail 4 (Kopatheme)"
+msgstr ""
+
+#: library/front.php:61
+#: library/front.php:320
+#@ nictitate
+msgid "Single Post Fullwidth Thumbnail (Kopatheme)"
+msgstr ""
+
+#: library/front.php:62
+#: library/front.php:321
+#@ nictitate
+msgid "Products Widget Thumbnail (Kopatheme)"
+msgstr ""
+
+#: library/front.php:63
+#: library/front.php:322
+#@ nictitate
+msgid "About Widget Slider Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:325
+#: library/front.php:326
+#@ nictitate
+msgid "auto"
+msgstr ""
+
+#: library/front.php:362
+#@ nictitate
+msgid "Home"
+msgstr ""
+
+#: library/front.php:369
+#@ nictitate
+msgid "Blog"
+msgstr ""
+
+#: library/front.php:502
+#, php-format
+#@ nictitate
+msgid "<span class=\"%1$s\">Your search for \"%2$s\""
+msgstr ""
+
+#: library/front.php:507
+#, php-format
+#@ nictitate
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: library/front.php:510
+#@ nictitate
+msgid "Page not found"
+msgstr ""
+
+#: library/front.php:565
+#: library/includes/cpanel/theme-options/post.php:27
+#@ nictitate
+msgid "Related Posts"
+msgstr ""
+
+#: library/front.php:723
+#@ nictitate
+msgid "Related Portfolios"
+msgstr ""
+
+#: library/front.php:785
+#@ nictitate
+msgid "Posted by:"
+msgstr ""
+
+#: library/front.php:795
+#@ nictitate
+msgid "Follow:"
+msgstr ""
+
+#: library/front.php:798
+#: library/front.php:823
+#@ nictitate
+msgid "Facebook"
+msgstr ""
+
+#: library/front.php:802
+#: library/front.php:830
+#@ nictitate
+msgid "Twitter"
+msgstr ""
+
+#: library/front.php:806
+#@ nictitate
+msgid "Google+"
+msgstr ""
+
+#: library/front.php:826
+#@ nictitate
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: library/front.php:833
+#@ nictitate
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: library/front.php:837
+#@ nictitate
+msgid "Google Plus"
+msgstr ""
+
+#: library/front.php:840
+#@ nictitate
+msgid "Please enter your Google Plus URL"
+msgstr ""
+
+#: library/includes/ajax.php:308
+#@ nictitate
+msgid "Website:"
+msgstr ""
+
+#: library/includes/ajax.php:313
+#@ nictitate
+msgid "Oops! errors occured."
+msgstr ""
+
+#: library/includes/ajax.php:315
+#@ nictitate
+msgid "Success! Your email has been sent."
+msgstr ""
+
+#: library/includes/ajax.php:417
+#@ nictitate
+msgid "Pin It"
+msgstr ""
+
+#: library/includes/ajax.php:422
+#@ nictitate
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: library/includes/ajax.php:422
+#@ nictitate
+msgid "Share by Email"
+msgstr ""
+
+#: library/includes/ajax.php:422
+#@ nictitate
+msgid "Mail To"
+msgstr ""
+
+#: library/includes/ajax.php:466
+#, php-format
+#@ nictitate
+msgid "%1$s Likes"
+msgstr ""
+
+#: library/includes/ajax.php:538
+#@ nictitate
+msgid " Article"
+msgstr ""
+
+#: library/includes/ajax.php:539
+#@ nictitate
+msgid " Articles"
+msgstr ""
+
+#: library/includes/ajax.php:565
+#: library/includes/ajax.php:598
+#: library/includes/ajax.php:628
+#: library/includes/ajax.php:650
+#: library/includes/ajax.php:692
+#@ nictitate
+msgid "No Comment"
+msgstr ""
+
+#: library/includes/ajax.php:565
+#: library/includes/ajax.php:598
+#: library/includes/ajax.php:628
+#: library/includes/ajax.php:650
+#: library/includes/ajax.php:692
+#@ nictitate
+msgid "Comments Off"
+msgstr ""
+
+#: library/includes/ajax.php:601
+#: library/includes/ajax.php:659
+#: library/includes/ajax.php:695
+#@ nictitate
+msgid "Continue Reading &raquo;"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:5
+#: library/includes/cpanel/theme-options-page.php:13
+#@ nictitate
+msgid "Custom CSS"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:10
+#@ nictitate
+msgid "Enter the your custom CSS code"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:6
+#@ nictitate
+msgid "Logo, Favicon, Apple Icon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:43
+#: library/includes/cpanel/theme-options/general.php:54
+#: library/includes/cpanel/theme-options/general.php:59
+#: library/includes/cpanel/theme-options/general.php:65
+#: library/includes/cpanel/theme-options/general.php:71
+#: library/options/options_post_slider_bg.php:29
+#@ nictitate
+msgid "Upload"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:12
+#@ nictitate
+msgid "Logo margin"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:13
+#@ nictitate
+msgid "Top margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:15
+#: library/includes/cpanel/theme-options/general.php:21
+#: library/includes/cpanel/theme-options/general.php:27
+#: library/includes/cpanel/theme-options/general.php:33
+#@ nictitate
+msgid "px"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:19
+#@ nictitate
+msgid "Left margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:25
+#@ nictitate
+msgid "Right margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:31
+#@ nictitate
+msgid "Bottom margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:38
+#@ nictitate
+msgid "Favicon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:40
+#@ nictitate
+msgid "Upload your own favicon."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:49
+#@ nictitate
+msgid "Apple Icons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:51
+#@ nictitate
+msgid "Iphone (57px - 57px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:56
+#@ nictitate
+msgid "Iphone Retina (114px - 114px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:62
+#@ nictitate
+msgid "Ipad (72px - 72px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:68
+#@ nictitate
+msgid "Ipad Retina (144px - 144px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:137
+#@ nictitate
+msgid "Choose a layout"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:140
+#@ nictitate
+msgid "Wide"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:141
+#@ nictitate
+msgid "Box"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:157
+#@ nictitate
+msgid "Main Content"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:163
+#@ nictitate
+msgid "Play Video in lightbox"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:115
+#: library/includes/cpanel/theme-options/general.php:166
+#@ nictitate
+msgid "Enable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:116
+#: library/includes/cpanel/theme-options/general.php:167
+#@ nictitate
+msgid "Disable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:182
+#@ nictitate
+msgid "Contact Information"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:187
+#@ nictitate
+msgid "Email:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:191
+#@ nictitate
+msgid "Phone number:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:195
+#@ nictitate
+msgid "Address:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:202
+#@ nictitate
+msgid "Header Information"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:207
+#@ nictitate
+msgid "Left header description:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:214
+#@ nictitate
+msgid "Portfolio"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:219
+#@ nictitate
+msgid "Show related portfolio by"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:223
+#: library/includes/cpanel/theme-options/post.php:37
+#@ nictitate
+msgid "-- Hide --"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:224
+#@ nictitate
+msgid "Project"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:225
+#: library/includes/cpanel/theme-options/post.php:38
+#@ nictitate
+msgid "Tag"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:234
+#: library/includes/cpanel/theme-options/post.php:49
+#@ nictitate
+msgid "Limit"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:241
+#@ nictitate
+msgid "Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:247
+#@ nictitate
+msgid "Custom Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:248
+#@ nictitate
+msgid "Enter the content you want to display in your footer (e.g. copyright text)."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:5
+#@ nictitate
+msgid "About Author"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:89
+#: library/includes/cpanel/theme-options/post.php:11
+#@ nictitate
+msgid "Show"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:90
+#: library/includes/cpanel/theme-options/post.php:12
+#@ nictitate
+msgid "Hide"
+msgstr ""
+
+#: library/includes/widgets.php:2634
+#@ nictitate
+msgid "Email"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:33
+#@ nictitate
+msgid "Get By"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:39
+#@ nictitate
+msgid "Category"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:5
+#: library/includes/cpanel/theme-options-page.php:12
+#@ nictitate
+msgid "Social Links"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:12
+#@ nictitate
+msgid "RSS URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:13
+#@ nictitate
+msgid "Display the RSS feed button with the default RSS feed or enter a custom feed below. <br><code>Enter <b>\"HIDE\"</b> if you want to hide it</code>"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:19
+#@ nictitate
+msgid "Facebook_URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:25
+#@ nictitate
+msgid "Twitter URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:31
+#@ nictitate
+msgid "Pinterest URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:36
+#@ nictitate
+msgid "Dribbble URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:41
+#@ nictitate
+msgid "Youtube URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:45
+#@ nictitate
+msgid "Flickr URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:49
+#@ nictitate
+msgid "Vimeo URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:53
+#@ nictitate
+msgid "Instagram URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options-page.php:10
+#@ nictitate
+msgid "General Setting"
+msgstr ""
+
+#: library/includes/cpanel/theme-options-page.php:11
+#@ nictitate
+msgid "Single Post"
+msgstr ""
+
+#: library/includes/cpanel/theme-options-page.php:20
+#: library/kopa.php:22
+#@ nictitate
+msgid "Theme Options"
+msgstr ""
+
+#: library/includes/cpanel/theme-options-page.php:24
+#@ nictitate
+msgid "Visit author URL:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options-page.php:31
+#: library/includes/cpanel/theme-options-page.php:48
+#@ nictitate
+msgid "Save"
+msgstr ""
+
+#: library/includes/widgets.php:160
+#@ nictitate
+msgid "Arbitrary text, HTML or shortcodes"
+msgstr ""
+
+#: library/includes/widgets.php:162
+#@ nictitate
+msgid "Kopa Text"
+msgstr ""
+
+#: library/includes/widgets.php:197
+#: library/includes/widgets.php:341
+#: library/includes/widgets.php:507
+#: library/includes/widgets.php:685
+#: library/includes/widgets.php:808
+#: library/includes/widgets.php:1021
+#: library/includes/widgets.php:1276
+#: library/includes/widgets.php:1499
+#: library/includes/widgets.php:1690
+#: library/includes/widgets.php:1758
+#: library/includes/widgets.php:1829
+#: library/includes/widgets.php:1939
+#: library/includes/widgets.php:2105
+#: library/includes/widgets.php:2310
+#: library/includes/widgets.php:2509
+#: library/includes/widgets.php:2914
+#: library/includes/widgets.php:3035
+#@ nictitate
+msgid "Title:"
+msgstr ""
+
+#: library/includes/widgets.php:231
+#@ nictitate
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: library/includes/widgets.php:243
+#@ nictitate
+msgid "Display a services intro widget"
+msgstr ""
+
+#: library/includes/widgets.php:245
+#@ nictitate
+msgid "Kopa Services Intro"
+msgstr ""
+
+#: library/includes/widgets.php:346
+#: library/includes/widgets.php:512
+#: library/includes/widgets.php:690
+#: library/includes/widgets.php:1504
+#: library/includes/widgets.php:1944
+#: library/includes/widgets.php:2110
+#: library/includes/widgets.php:2315
+#: library/includes/widgets.php:2514
+#@ nictitate
+msgid "Categories:"
+msgstr ""
+
+#: library/includes/widgets.php:348
+#: library/includes/widgets.php:375
+#: library/includes/widgets.php:514
+#: library/includes/widgets.php:541
+#: library/includes/widgets.php:692
+#: library/includes/widgets.php:719
+#: library/includes/widgets.php:1506
+#: library/includes/widgets.php:1533
+#: library/includes/widgets.php:1946
+#: library/includes/widgets.php:1973
+#: library/includes/widgets.php:2112
+#: library/includes/widgets.php:2139
+#: library/includes/widgets.php:2317
+#: library/includes/widgets.php:2344
+#: library/includes/widgets.php:2516
+#: library/includes/widgets.php:2543
+#@ nictitate
+msgid "-- None --"
+msgstr ""
+
+#: library/includes/widgets.php:359
+#: library/includes/widgets.php:525
+#: library/includes/widgets.php:703
+#: library/includes/widgets.php:1517
+#: library/includes/widgets.php:1957
+#: library/includes/widgets.php:2123
+#: library/includes/widgets.php:2328
+#: library/includes/widgets.php:2527
+#@ nictitate
+msgid "Relation:"
+msgstr ""
+
+#: library/includes/widgets.php:363
+#: library/includes/widgets.php:529
+#: library/includes/widgets.php:707
+#: library/includes/widgets.php:1521
+#: library/includes/widgets.php:1961
+#: library/includes/widgets.php:2127
+#: library/includes/widgets.php:2332
+#: library/includes/widgets.php:2531
+#@ nictitate
+msgid "And"
+msgstr ""
+
+#: library/includes/widgets.php:364
+#: library/includes/widgets.php:530
+#: library/includes/widgets.php:708
+#: library/includes/widgets.php:1522
+#: library/includes/widgets.php:1962
+#: library/includes/widgets.php:2128
+#: library/includes/widgets.php:2333
+#: library/includes/widgets.php:2532
+#@ nictitate
+msgid "Or"
+msgstr ""
+
+#: library/includes/widgets.php:373
+#: library/includes/widgets.php:539
+#: library/includes/widgets.php:717
+#: library/includes/widgets.php:1531
+#: library/includes/widgets.php:1971
+#: library/includes/widgets.php:2137
+#: library/includes/widgets.php:2342
+#: library/includes/widgets.php:2541
+#@ nictitate
+msgid "Tags:"
+msgstr ""
+
+#: library/includes/widgets.php:385
+#: library/includes/widgets.php:551
+#: library/includes/widgets.php:729
+#: library/includes/widgets.php:1082
+#: library/includes/widgets.php:1337
+#: library/includes/widgets.php:1543
+#: library/includes/widgets.php:1983
+#: library/includes/widgets.php:2149
+#: library/includes/widgets.php:2354
+#: library/includes/widgets.php:2553
+#: library/includes/widgets.php:3096
+#@ nictitate
+msgid "Number of items:"
+msgstr ""
+
+#: library/includes/widgets.php:389
+#: library/includes/widgets.php:555
+#: library/includes/widgets.php:733
+#: library/includes/widgets.php:1547
+#: library/includes/widgets.php:1987
+#: library/includes/widgets.php:2153
+#: library/includes/widgets.php:2358
+#: library/includes/widgets.php:2557
+#@ nictitate
+msgid "Orderby:"
+msgstr ""
+
+#: library/includes/widgets.php:393
+#: library/includes/widgets.php:559
+#: library/includes/widgets.php:737
+#: library/includes/widgets.php:1066
+#: library/includes/widgets.php:1321
+#: library/includes/widgets.php:1551
+#: library/includes/widgets.php:1991
+#: library/includes/widgets.php:2157
+#: library/includes/widgets.php:2362
+#: library/includes/widgets.php:2561
+#: library/includes/widgets.php:3080
+#@ nictitate
+msgid "Lastest"
+msgstr ""
+
+#: library/includes/widgets.php:394
+#: library/includes/widgets.php:560
+#: library/includes/widgets.php:738
+#: library/includes/widgets.php:1069
+#: library/includes/widgets.php:1324
+#: library/includes/widgets.php:1552
+#: library/includes/widgets.php:1992
+#: library/includes/widgets.php:2158
+#: library/includes/widgets.php:2363
+#: library/includes/widgets.php:2562
+#: library/includes/widgets.php:3083
+#@ nictitate
+msgid "Random"
+msgstr ""
+
+#: library/includes/widgets.php:424
+#@ nictitate
+msgid "Display a services tabs widget"
+msgstr ""
+
+#: library/includes/widgets.php:426
+#@ nictitate
+msgid "Kopa Services Tabs"
+msgstr ""
+
+#: library/includes/widgets.php:591
+#@ nictitate
+msgid "Display a services widget"
+msgstr ""
+
+#: library/includes/widgets.php:593
+#@ nictitate
+msgid "Kopa Services"
+msgstr ""
+
+#: library/includes/widgets.php:667
+#@ nictitate
+msgid "Services"
+msgstr ""
+
+#: library/includes/widgets.php:768
+#@ nictitate
+msgid "Display a tagline widget"
+msgstr ""
+
+#: library/includes/widgets.php:770
+#@ nictitate
+msgid "Kopa Tagline"
+msgstr ""
+
+#: library/includes/widgets.php:813
+#: library/includes/widgets.php:2925
+#@ nictitate
+msgid "Description:"
+msgstr ""
+
+#: library/includes/widgets.php:818
+#@ nictitate
+msgid "Button Text:"
+msgstr ""
+
+#: library/includes/widgets.php:823
+#@ nictitate
+msgid "Button Link:"
+msgstr ""
+
+#: library/includes/widgets.php:846
+#@ nictitate
+msgid "Display a posts list widget"
+msgstr ""
+
+#: library/includes/widgets.php:848
+#@ nictitate
+msgid "Kopa Posts List"
+msgstr ""
+
+#: library/includes/widgets.php:991
+#@ nictitate
+msgid "View All"
+msgstr ""
+
+#: library/includes/widgets.php:1003
+#: library/includes/widgets.php:1254
+#@ nictitate
+msgid "Lastest Posts"
+msgstr ""
+
+#: library/includes/widgets.php:1026
+#: library/includes/widgets.php:1281
+#: library/includes/widgets.php:2827
+#: library/includes/widgets.php:3040
+#@ nictitate
+msgid "Categories"
+msgstr ""
+
+#: library/includes/widgets.php:1028
+#: library/includes/widgets.php:1050
+#: library/includes/widgets.php:1283
+#: library/includes/widgets.php:1305
+#: library/includes/widgets.php:3042
+#: library/includes/widgets.php:3064
+#@ nictitate
+msgid "--Select--"
+msgstr ""
+
+#: library/includes/widgets.php:1041
+#: library/includes/widgets.php:1296
+#: library/includes/widgets.php:3055
+#@ nictitate
+msgid "Relation"
+msgstr ""
+
+#: library/includes/widgets.php:1043
+#: library/includes/widgets.php:1298
+#: library/includes/widgets.php:3057
+#@ nictitate
+msgid "OR"
+msgstr ""
+
+#: library/includes/widgets.php:1044
+#: library/includes/widgets.php:1299
+#: library/includes/widgets.php:3058
+#@ nictitate
+msgid "AND"
+msgstr ""
+
+#: library/includes/widgets.php:1048
+#: library/includes/widgets.php:1303
+#: library/includes/widgets.php:3062
+#: loop-single.php:23
+#@ nictitate
+msgid "Tags"
+msgstr ""
+
+#: library/includes/widgets.php:1063
+#: library/includes/widgets.php:1318
+#: library/includes/widgets.php:3077
+#@ nictitate
+msgid "Orderby"
+msgstr ""
+
+#: library/includes/widgets.php:1067
+#: library/includes/widgets.php:1322
+#: library/includes/widgets.php:3081
+#@ nictitate
+msgid "Popular by view count"
+msgstr ""
+
+#: library/includes/widgets.php:1068
+#: library/includes/widgets.php:1323
+#: library/includes/widgets.php:3082
+#@ nictitate
+msgid "Popular by comment count"
+msgstr ""
+
+#: library/includes/widgets.php:1107
+#@ nictitate
+msgid "Display a posts carousel widget"
+msgstr ""
+
+#: library/includes/widgets.php:1109
+#@ nictitate
+msgid "Kopa Posts Carousel"
+msgstr ""
+
+#: library/includes/widgets.php:1342
+#@ nictitate
+msgid "Max items carousel range:"
+msgstr ""
+
+#: library/includes/widgets.php:1353
+#@ nictitate
+msgid "Scroll Items:"
+msgstr ""
+
+#: library/includes/widgets.php:1380
+#@ nictitate
+msgid "Display a testimonials widget"
+msgstr ""
+
+#: library/includes/widgets.php:1382
+#@ nictitate
+msgid "Kopa Testimonials"
+msgstr ""
+
+#: library/includes/widgets.php:1424
+#@ nictitate
+msgid "avatar"
+msgstr ""
+
+#: library/includes/widgets.php:1562
+#@ nictitate
+msgid "Style:"
+msgstr ""
+
+#: library/includes/widgets.php:1566
+#@ nictitate
+msgid "Slider"
+msgstr ""
+
+#: library/includes/widgets.php:1567
+#@ nictitate
+msgid "Carousel"
+msgstr ""
+
+#: library/includes/widgets.php:1599
+#@ nictitate
+msgid "Socials Widget"
+msgstr ""
+
+#: library/includes/widgets.php:1601
+#@ nictitate
+msgid "Kopa Socials"
+msgstr ""
+
+#: library/includes/widgets.php:1711
+#@ nictitate
+msgid "Feedburner Email Subscriptions Widget"
+msgstr ""
+
+#: library/includes/widgets.php:1713
+#@ nictitate
+msgid "Kopa Subsribe"
+msgstr ""
+
+#: library/includes/widgets.php:1737
+#@ nictitate
+msgid "Subscribe to newsletter"
+msgstr ""
+
+#: library/includes/widgets.php:1749
+#@ nictitate
+msgid "Newsletter"
+msgstr ""
+
+#: library/includes/widgets.php:1763
+#@ nictitate
+msgid "Feedburner id (http://feeds.feedburner.com/<b>wordpress/kopatheme</b>)"
+msgstr ""
+
+#: library/includes/widgets.php:1786
+#@ nictitate
+msgid "Flickr Widget"
+msgstr ""
+
+#: library/includes/widgets.php:1788
+#@ nictitate
+msgid "Kopa Flickr"
+msgstr ""
+
+#: library/includes/widgets.php:1818
+#@ nictitate
+msgid "Photo Flickr"
+msgstr ""
+
+#: library/includes/widgets.php:1834
+#@ nictitate
+msgid "Flickr ID"
+msgstr ""
+
+#: library/includes/widgets.php:1839
+#@ nictitate
+msgid "Limit the number of items"
+msgstr ""
+
+#: library/includes/widgets.php:1862
+#@ nictitate
+msgid "Display a services expertise widget"
+msgstr ""
+
+#: library/includes/widgets.php:1864
+#@ nictitate
+msgid "Kopa Services Expertise"
+msgstr ""
+
+#: library/includes/widgets.php:2023
+#@ nictitate
+msgid "Display a clients widget"
+msgstr ""
+
+#: library/includes/widgets.php:2025
+#@ nictitate
+msgid "Kopa Clients"
+msgstr ""
+
+#: library/includes/widgets.php:2087
+#@ nictitate
+msgid "Clients"
+msgstr ""
+
+#: library/includes/widgets.php:2190
+#@ nictitate
+msgid "Display a portfolios widget"
+msgstr ""
+
+#: library/includes/widgets.php:2192
+#@ nictitate
+msgid "Kopa Portfolios"
+msgstr ""
+
+#: library/includes/widgets.php:2290
+#@ nictitate
+msgid "Our Portfolio"
+msgstr ""
+
+#: library/includes/widgets.php:2372
+#@ nictitate
+msgid "Title position"
+msgstr ""
+
+#: library/includes/widgets.php:2374
+#@ nictitate
+msgid "Ex: Enter 5 if you want title will be displayed as the 5th item in the portfolio list items"
+msgstr ""
+
+#: library/includes/widgets.php:2406
+#@ nictitate
+msgid "Display a staffs widget"
+msgstr ""
+
+#: library/includes/widgets.php:2408
+#@ nictitate
+msgid "Kopa Staffs Widget"
+msgstr ""
+
+#: library/includes/widgets.php:2491
+#@ nictitate
+msgid "Our Team"
+msgstr ""
+
+#: library/includes/widgets.php:2600
+#@ nictitate
+msgid "Contact Form Widget"
+msgstr ""
+
+#: library/includes/widgets.php:2602
+#@ nictitate
+msgid "Kopa Contact Form"
+msgstr ""
+
+#: library/includes/widgets.php:2630
+#@ nictitate
+msgid "Name"
+msgstr ""
+
+#: library/includes/widgets.php:2630
+#: library/includes/widgets.php:2634
+#: library/includes/widgets.php:2642
+#@ nictitate
+msgid "(required)"
+msgstr ""
+
+#: library/includes/widgets.php:2638
+#@ nictitate
+msgid "Subject:"
+msgstr ""
+
+#: library/includes/widgets.php:2642
+#@ nictitate
+msgid "Message"
+msgstr ""
+
+#: library/includes/widgets.php:2726
+#: library/includes/widgets.php:2836
+#@ nictitate
+msgid "Title"
+msgstr ""
+
+#: library/includes/widgets.php:2755
+#@ nictitate
+msgid "Categories widget"
+msgstr ""
+
+#: library/includes/widgets.php:2757
+#@ nictitate
+msgid "Kopa Categories Widget"
+msgstr ""
+
+#: library/includes/widgets.php:2782
+#@ nictitate
+msgid "All Categories"
+msgstr ""
+
+#: library/includes/widgets.php:2859
+#@ nictitate
+msgid "Display a gallery and description"
+msgstr ""
+
+#: library/includes/widgets.php:2861
+#@ nictitate
+msgid "Kopa About Widget"
+msgstr ""
+
+#: library/includes/widgets.php:2919
+#@ nictitate
+msgid "Image IDs:"
+msgstr ""
+
+#: library/includes/widgets.php:2921
+#@ nictitate
+msgid "Image Attachment IDs, separated by commas."
+msgstr ""
+
+#: library/includes/widgets.php:2949
+#@ nictitate
+msgid "Display a posts slider"
+msgstr ""
+
+#: library/includes/widgets.php:2951
+#@ nictitate
+msgid "Kopa Sequence Slider"
+msgstr ""
+
+#: library/ini.php:110
+#@ nictitate
+msgid "Single 2"
+msgstr ""
+
+#: library/options/options_post_slider_bg.php:5
+#@ nictitate
+msgid "Sequence Slider Background Image"
+msgstr ""
+
+#: library/options/options_post_slider_bg.php:25
+#@ nictitate
+msgid "Slider Background Image"
+msgstr ""
+
+#: library/options/options_post_slider_bg.php:26
+#@ nictitate
+msgid "Upload your own slider background image."
+msgstr ""
+
+#: loop-single.php:10
+#@ nictitate
+msgid "About the author:"
+msgstr ""
+
+#: pagination.php:19
+#@ nictitate
+msgid "Previous"
+msgstr ""
+
+#: pagination.php:20
+#@ nictitate
+msgid "Next"
+msgstr ""
+
+#: post-navigation.php:6
+#@ nictitate
+msgid "Previous Article"
+msgstr ""
+
+#: post-navigation.php:17
+#@ nictitate
+msgid "Next Article"
+msgstr ""
+
+#: library/front.php:1262
+#, php-format
+#@ nictitate
+msgid "Page %s"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:11
+#, php-format
+#@ nictitate
+msgid "Use <a href=\"%s\">custom header</a> to upload logo image and change site title color."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:131
+#@ nictitate
+msgid "Site Layout"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:151
+#, php-format
+#@ nictitate
+msgid "Select Box layout to use <a href=\"%1$s\">custom background</a>."
+msgstr ""
+
+#: footer.php:40
+#: library/includes/cpanel/theme-options/general.php:249
+#@ nictitate
+msgid "Copyrights. &copy; 2014"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:106
+#@ nictitate
+msgid "Sticky Main Menu"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:112
+#@ nictitate
+msgid "Enable / Disable sticky main menu"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:80
+#@ nictitate
+msgid "Header top links"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:86
+#@ nictitate
+msgid "Show / Hide top links (Login, register links)"
+msgstr ""
+

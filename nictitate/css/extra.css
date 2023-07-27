@@ -1,0 +1,109 @@
+/* 
+ * Extra styles for nictitate theme
+ *
+ * Table of contents
+ * 1. Text logo
+ * 2. Sticky header
+ * 3. Repeatable patterns
+ *   3.1 Comment content
+ * 4. Widgets
+ */
+
+/* 1. Text logo */
+.site-title {
+	margin: 0;
+}
+.site-title a {
+	color: #444;
+}
+.kp-text-logo .site-title {
+	font-size: 18px;
+}
+
+/* 2. Sticky header */
+/* position when user logged in  */
+.logged-in .sticky-header {
+	top: 28px;
+}
+
+.sticky-header .kp-text-logo .site-title {
+	display: none;
+}
+
+/* 3. Repeatable patterns  */
+.wp-caption {
+	max-width: 100%;
+}
+
+.elements-box table,
+.comment-content table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.elements-box th,
+.comment-content th {
+	text-align: left;
+	text-transform: uppercase;
+}
+.elements-box td,
+.comment-content td {
+	border-top: 1px solid #ececec;
+	padding: 6px 10px 6px 0;
+}
+.elements-box dl,
+.comment-content dl {
+	margin: 0 20px;
+}
+.elements-box dd,
+.comment-content dd {
+	margin-bottom: 20px;
+}
+.elements-box ul,
+.elements-box ol,
+.comment-content ul,
+.comment-content ol {
+	margin: 16px 0;
+	padding: 0 0 0 40px;
+}
+.elements-box li ul,
+.elements-box li ol,
+.comment-content li ul,
+.comment-content li ol {
+	margin: 10px 0 0 0;
+}
+.elements-box ol,
+.elements-box ol li,
+.comment-content ol,
+.comment-content ol li {
+	list-style-type: decimal;
+}
+
+/* 3.1 Comment content */
+.comment-content h1,
+.comment-content h2,
+.comment-content h3,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6,
+#comments .comment-content h3  {
+    color:#555;
+    margin:0 0 10px;
+}
+#comments .comment-content h3 {
+	background-color: transparent;
+	padding-left: 0;
+	line-height: 1.08333333333333333333;
+}
+#comments .comments-list .children .children .comment-body {
+	width: 100%;
+}
+
+/* 4. Widgets */
+/* Testimonial widget */
+.kopa-testimonial-widget .testimonial-detail .testimonial-content p {
+	background: none;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content .testimonial-content-inside {
+	background: url(../images/icons/quote-icon-2.png) no-repeat right top;
+}

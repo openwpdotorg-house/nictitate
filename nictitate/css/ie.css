@@ -1,0 +1,39 @@
+.kopa-button,
+.sequence-wrapper .next,
+.sequence-wrapper .prev,
+.kopa-intro-widget ul li .entry-title span,
+#main-content .widget .widget-title span,
+#main-content .widget .widget-title,
+.kopa-featured-product-widget .entry-item .entry-thumb .add-to-cart,
+.hover-effect .mask a.link-gallery,
+.hover-effect .mask a.link-detail,
+.kopa-testimonial-widget .testimonial-detail .avatar,
+.kopa-testimonial-widget .testimonial-detail .avatar img,
+.list-container-2 ul li span,
+.kopa-testimonial-slider .avatar,
+.kopa-testimonial-slider .avatar img,
+.about-author .avatar-thumb,
+.about-author .avatar-thumb img,
+#comments h3, .kopa-related-post h3, #respond h3,
+#comments h3 span, .kopa-related-post h3 span, #respond h3 span,
+#comments .comment-avatar,
+#comments .comment-avatar img,
+.kopa-our-team-widget ul li .our-team-social-link li a,
+.kp-dropcap.color {
+	behavior: url(js/PIE.htc);
+}
+
+.kopa-testimonial-slider .avatar,
+.kopa-testimonial-slider .avatar img,
+.kopa-testimonial-widget .testimonial-detail .avatar,
+.kopa-testimonial-widget .testimonial-detail .avatar img {
+	width:80px;
+	height:80px;
+}
+
+#logo-image a,
+#logo-image a img,
+.da-thumbs li .da-thumbs-hover img {
+	width:auto;
+}
+

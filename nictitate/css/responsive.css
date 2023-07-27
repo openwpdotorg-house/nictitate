@@ -1,0 +1,2937 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+#header-top .search-icon,
+.search-form .search-submit {
+	background: url('../images/icons/search-icon@2x.png') no-repeat center center #33bee5;
+	background-size:20px 21px;
+}
+.sf-arrows li ul li .sf-with-ul:after {
+    background-image:url('../images/background/menu-arrow@2x.png');
+	background-size:6px 9px;
+}
+.kopa-latest-work-widget .carousel-nav .carousel-prev,
+.kopa-testimonial-widget .carousel-nav .carousel-prev,
+.kopa-featured-product-widget .carousel-nav .carousel-prev,
+.kopa-related-post .carousel-nav .carousel-prev {
+	background-image:url('../images/slider/carousel-prev@2x.png');
+	background-size:6px 9px;
+}
+.kopa-latest-work-widget .carousel-nav .carousel-next,
+.kopa-testimonial-widget .carousel-nav .carousel-next,
+.kopa-featured-product-widget .carousel-nav .carousel-next,
+.kopa-related-post .carousel-nav .carousel-next {
+	background-image:url('../images/slider/carousel-next@2x.png');
+	background-size:6px 9px;
+}
+.kopa-portfolio-widget {
+	background:url('../images/background/shadow-2@2x.png') no-repeat center top #f5f5f5;
+	background-size:1366px 15px;
+}
+#bottom-sidebar .widget .search-form .search-submit {
+	background:url('../images/icons/search-icon-2@2x.png') no-repeat 0 0;
+	background-size:20px 20px;
+}
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	background:url('../images/icons/quote-icon-1@2x.png') no-repeat 55px 10px #f8f8f8;
+	background-size:49px 39px;	
+}
+.kopa-testimonial-widget .testimonial-detail .testimonial-content p {
+	background:url('../images/icons/quote-icon-2@2x.png') no-repeat right top;
+	background-size:81px 65px;
+}
+.kopa-contact-page #contact_name {
+	background-image:url('../images/icons/big-user@2x.png');
+	background-size:22px 22px;
+}
+.kopa-contact-page #contact_email {
+	background-image:url('../images/icons/envelope@2x.png');
+	background-size:22px 22px;
+}
+.kopa-contact-page #contact_url {
+	background-image:url('../images/icons/big-link@2x.png');
+	background-size:22px 22px;
+}
+.da-thumbs li .da-thumbs-hover p a.link-gallery {
+	background:url('../images/icons/search@2x.png') no-repeat center center;
+	background-size:22px 22px;
+}
+.about-slider .flex-direction-nav li a.flex-prev,
+.blogpost-slider .flex-direction-nav li a.flex-prev,
+.kp-single-slider .flex-direction-nav li a.flex-prev,
+.kp-single-carousel .flex-direction-nav .flex-prev,
+.sequence-wrapper .prev {
+	background-image:url('../images/slider/sequence-prev@2x.png');
+	background-size:9px 16px;
+}
+.about-slider .flex-direction-nav li a.flex-next,
+.blogpost-slider .flex-direction-nav li a.flex-next,
+.kp-single-slider .flex-direction-nav li a.flex-next,
+.kp-single-carousel .flex-direction-nav .flex-next,
+.sequence-wrapper .next {
+	background-image:url('../images/slider/sequence-next@2x.png');
+	background-size:9px 16px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1043px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:980px;
+}
+#main-col {
+	margin-right:20px;
+	width:710px;
+}
+.sidebar {
+	float:left;
+	width:250px;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:33%;
+}
+.animate-in .model-3-4 {
+	right:32%;
+}
+.model-2-1 {
+	width:450px !important;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:200px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:258px;
+}
+
+.kopa-client-widget ul li {
+	width:180px;
+	margin:0 0 0 20px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message {
+	width:329px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:980px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 ul li {
+    width:326px;
+}
+
+#bottom-sidebar .newsletter-form .email {
+	width:226px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:69px;
+	margin:0 10px 10px 0;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:480px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 0 0 20px;
+	width:230px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:485px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:305px;
+	margin-right:20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:385px;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box footer p {
+	width:314px;
+}
+.about-author .author-content {
+	width:555px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:152px;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 170px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:629px;
+}
+#comments .comments-list .children .comment-body {
+    width:569px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:260px;
+}
+#comments-form .comment-right {
+    width:430px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:380px;
+}
+.kp-single-carousel {
+	display:none;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:310px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 324px;}.table-4col .pricing-column {    width: 243px;}.table-5col .pricing-column {    width: 194px;}
+
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:920px;
+}
+#main-col {
+	margin-right:20px;
+	width:650px;
+}
+.sidebar {
+	float:left;
+	width:250px;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:33%;
+}
+.animate-in .model-3-4 {
+	right:32%;
+}
+.model-2-1 {
+	width:450px !important;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:200px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:228px;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget ul li {
+	width:168px;
+	margin:0 0 0 20px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message {
+	width:300px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:920px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 ul li {
+    width:306px;
+}
+
+#bottom-sidebar .newsletter-form .email {
+	width:206px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:65px;
+	margin:0 10px 10px 0;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:480px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 0 0 20px;
+	width:215px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:455px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:270px;
+	margin-right:20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:360px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:284px;
+}
+.about-author .author-content {
+	width:495px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:569px;
+}
+#comments .comments-list .children .comment-body {
+    width:509px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:230px;
+}
+#comments-form .comment-right {
+    width:400px;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:280px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:350px;
+}
+.kp-single-carousel {
+	display:none;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:285px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 304px;}.table-4col .pricing-column {    width: 228px;}.table-5col .pricing-column {    width: 182px;}
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:740px;
+}
+#main-col {
+	margin-right:20px;
+	width:470px;
+}
+.sidebar {
+	float:left;
+	width:250px;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:33%;
+}
+.animate-in .model-3-4 {
+	right:32%;
+}
+.model-2-1 {
+	width:410px !important;
+}
+#sequence li#creative h2 {
+	font-size:20px;
+}
+.model {
+	width:520px;
+}
+.animate-in .model-2-1 {
+	bottom:22%;
+}
+.model-3-2,
+.model-3-1 {
+	width:300px;
+}
+.model-3-3 {
+	width:180px;
+}
+.model-3-4 {
+	width:70px;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget ul li {
+	width:140px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message,
+.kopa-contact-widget #contact-form label.required {
+	width:100%;
+}
+.kopa-contact-widget #contact-form #submit-contact {
+	margin:0;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:740px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:246px;
+}
+.list-container-2 ul li > a {
+	font-size:20px;
+	text-align:left;
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 15px 0 20px;
+}
+
+#bottom-sidebar .newsletter-form .email {
+	width:146px;
+}
+.kopa-tagline-description {
+	width:70%;
+}
+#bottom-sidebar .kopa-social-widget li a {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+
+.kopa-intro-widget ul li .entry-title span {
+	width:50px;
+	height:50px;
+	line-height:50px;
+	margin-right:10px;
+	font-size:24px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:56px;
+	margin:0 0 15px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:380px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 0 0 20px;
+	width:170px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:365px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:194px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author .author-content {
+	width:315px;
+}
+.tag-box a {
+	padding:5px 10px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:389px;
+}
+#comments .comments-list .children .comment-body {
+    width:329px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:230px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:190px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 244px;}.table-4col .pricing-column {    width: 183px;}.table-5col .pricing-column {    width: 244px;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:720px;
+}
+#main-col {
+	margin-right:20px;
+	width:450px;
+}
+.sidebar {
+	float:left;
+	width:250px;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:33%;
+}
+.animate-in .model-3-4 {
+	right:32%;
+}
+.model-2-1 {
+	width:380px !important;
+}
+#sequence li#creative h2 {
+	font-size:20px;
+}
+.model {
+	width:450px;
+}
+.animate-in .model-2-1 {
+	bottom:25%;
+}
+.model-3-2,
+.model-3-1 {
+	width:300px;
+}
+.model-3-3 {
+	width:180px;
+}
+.model-3-4 {
+	width:70px;
+}
+.title-2 {
+	width:45%;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget ul li {
+	width:136px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message,
+.kopa-contact-widget #contact-form label.required {
+	width:100%;
+}
+.kopa-contact-widget #contact-form #submit-contact {
+	margin:0;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:740px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:240px;
+}
+.list-container-2 ul li > a {
+	font-size:20px;
+	text-align:left;
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 15px;
+}
+
+#bottom-sidebar .newsletter-form .email {
+	width:140px;
+}
+.kopa-tagline-description {
+	width:70%;
+}
+#bottom-sidebar .kopa-social-widget li {
+	margin:0 0 0 5px;
+}
+#bottom-sidebar .kopa-social-widget li a {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+
+.kopa-intro-widget ul li .entry-title span {
+	width:50px;
+	height:50px;
+	line-height:50px;
+	margin-right:10px;
+	font-size:24px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:56px;
+	margin:0 0 15px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:380px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 0 0 20px;
+	width:165px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:355px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:184px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author .author-content {
+	width:295px;
+}
+.tag-box a {
+	padding:5px 10px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:369px;
+}
+#comments .comments-list .children .comment-body {
+    width:309px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:219px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:185px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 237px;}.table-4col .pricing-column {    width: 178px;}.table-5col .pricing-column {    width: 238px;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding:0;
+}
+.wrapper{
+    width:580px;
+}
+#main-col {
+	margin-right:0px;
+	width:100%;
+}
+.sidebar {
+	float:left;
+	width:100%;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#header-top .hot-line {
+	display:none;
+}
+#header-top .top-link li {
+	margin:0 0 0 15px;
+}
+#header-top .search {
+	margin-left:35px;
+}
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:35%;
+}
+.animate-in .model-3-4 {
+	right:34%;
+}
+.model-2-1 {
+	width:300px !important;
+}
+#sequence li#creative h2 {
+	font-size:18px;
+}
+.model {
+	width:400px;
+	bottom:28%;
+}
+.animate-in .model-2-1 {
+	bottom:30%;
+}
+.model-3-2,
+.model-3-1 {
+	width:250px;
+}
+.model-3-3 {
+	width:140px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title-2 {
+	width:45%;
+}
+#sequence li#intro h2 {
+	font-size:26px;
+}
+.subtitle-2 {
+	width:44%;
+}
+#sequence li h3 {
+	font-size:20px;
+	line-height:24px;
+}
+#sequence li h2 {
+	font-size:26px;
+}
+.animate-in .model-3-1,
+.model-3-1,
+.animate-out .model-3-1 {
+	bottom:20%;
+}
+.animate-in .model-3-2,
+.animate-out .model-3-2,
+.model-3-2 {
+	bottom:10%;
+}
+.animate-in .model-3-3,
+.animate-out .model-3-3,
+.model-3-3 {
+	bottom:12%;
+}
+.animate-in .model-3-4,
+.animate-out .model-3-4,
+.model-3-4 {
+	bottom:16%;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget {
+	display:none;
+}
+.kopa-client-widget ul li {
+	width:136px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message {
+	width:430px;
+}
+#contact-box {
+	margin-bottom:30px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:580px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:193px;
+}
+.list-container-2 ul li > a {
+	font-size:16px;
+	text-align:left;
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 10px;
+}
+
+
+.kopa-tagline-description {
+	width:60%;
+}
+
+#bottom-sidebar .widget,
+#page-bottom .widget {
+	margin-bottom:20px;
+}
+#bottom-sidebar .widget .widget-title,
+#page-bottom .widget .widget-title {
+	margin:0 0 10px;
+}
+.kopa-intro-widget ul li .entry-title span {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:18px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:36px;
+	margin:0 0 15px;
+	font-size:20px;
+}
+
+.kopa-service-widget ul li {
+	width:46.6%;
+	margin:0 1.7% !important;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:280px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 0 0 15px;
+	width:133px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:285px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:249px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author .author-content {
+	width:425px;
+}
+.tag-box a {
+	padding:5px 10px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:499px;
+}
+#comments .comments-list .children .comment-body {
+    width:439px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:219px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:545px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 191px;}.table-4col .pricing-column {    width: 287px;}.table-5col .pricing-column {    width: 191px;}.list-container-1 ul li {	width: 90px;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding:0;
+}
+.wrapper{
+    width:540px;
+}
+#main-col {
+	margin-right:0px;
+	width:100%;
+}
+.sidebar {
+	float:left;
+	width:100%;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#header-top .hot-line {
+	display:none;
+}
+#header-top .top-link li {
+	margin:0 0 0 15px;
+}
+#header-top .search {
+	margin-left:35px;
+}
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:35%;
+}
+.animate-in .model-3-4 {
+	right:34%;
+}
+.model-2-1 {
+	width:300px !important;
+}
+#sequence li#creative h2 {
+	font-size:18px;
+	line-height:26px;
+}
+.model {
+	width:400px;
+	bottom:28%;
+}
+.animate-in .model-2-1 {
+	bottom:30%;
+}
+.model-3-2,
+.model-3-1 {
+	width:250px;
+}
+.model-3-3 {
+	width:140px;
+}
+.model-3-4 {
+	width:50px;
+}
+#sequence li#intro h2 {
+	font-size:20px;
+}
+
+#sequence li h3 {
+	font-size:20px;
+	line-height:24px;
+}
+#sequence li h2 {
+	font-size:22px;
+}
+.animate-in .model-3-1,
+.model-3-1,
+.animate-out .model-3-1 {
+	bottom:20%;
+}
+.animate-in .model-3-2,
+.animate-out .model-3-2,
+.model-3-2 {
+	bottom:10%;
+}
+.animate-in .model-3-3,
+.animate-out .model-3-3,
+.model-3-3 {
+	bottom:12%;
+}
+.animate-in .model-3-4,
+.animate-out .model-3-4,
+.model-3-4 {
+	bottom:16%;
+}
+
+
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget {
+	display:none;
+}
+.kopa-client-widget ul li {
+	width:136px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message {
+	width:390px;
+}
+#contact-box {
+	margin-bottom:30px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:580px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:180px;
+}
+.list-container-2 ul li > a {
+	font-size:16px;
+	
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 10px;
+	display:none
+}
+
+
+.kopa-tagline-description {
+	width:60%;
+}
+
+#bottom-sidebar .widget,
+#page-bottom .widget {
+	margin-bottom:20px;
+}
+#bottom-sidebar .widget .widget-title,
+#page-bottom .widget .widget-title {
+	margin:0 0 10px;
+}
+.kopa-intro-widget ul li .entry-title span {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:18px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:36px;
+	margin:0 0 15px;
+	font-size:20px;
+}
+
+.kopa-service-widget ul li {
+	width:46.6%;
+	margin:0 1.7% !important;
+}
+.kopa-service-widget ul {
+	margin-top:5px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+#bottom-sidebar .widget .search-form {
+	width:340px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:280px;
+	margin-right:20px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 5px !important;
+	width:125px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:265px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:229px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author .author-content {
+	width:385px;
+}
+.tag-box a {
+	padding:5px 10px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:459px;
+}
+#comments .comments-list .children .comment-body {
+    width:399px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:219px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:505px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.list-container-1 ul li {	width: 84px;}#back-top {	display:none !important;}.table-3col .pricing-column {    width: 267px;}.table-4col .pricing-column {    width: 267px;}.table-5col .pricing-column {    width: 177px;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding:0;
+}
+.wrapper{
+    width:420px;
+}
+#main-col {
+	margin-right:0px;
+	width:100%;
+}
+.sidebar {
+	float:left;
+	width:100%;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#header-top .hot-line {
+	display:none;
+}
+#header-top .top-link li {
+	margin:0 0 0 15px;
+}
+#header-top .search-box {
+	width:157px;
+}
+#header-top .search {
+	margin-left:35px;
+}
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:35%;
+}
+.animate-in .model-3-4 {
+	right:34%;
+}
+.model-2-1 {
+	width:300px !important;
+}
+#sequence li#creative h2 {
+	font-size:18px;
+	line-height:26px;
+}
+.model {
+	width:400px;
+	bottom:28%;
+}
+.animate-in .model-2-1 {
+	bottom:30%;
+}
+.model-3-2,
+.model-3-1 {
+	width:250px;
+}
+.model-3-3 {
+	width:140px;
+}
+.model-3-4 {
+	width:50px;
+}
+#sequence li#intro h2 {
+	font-size:20px;
+}
+
+#sequence li h3 {
+	font-size:20px;
+	line-height:24px;
+}
+#sequence li h2 {
+	font-size:22px;
+}
+.animate-in .model-3-1,
+.model-3-1,
+.animate-out .model-3-1 {
+	bottom:20%;
+}
+.animate-in .model-3-2,
+.animate-out .model-3-2,
+.model-3-2 {
+	bottom:10%;
+}
+.animate-in .model-3-3,
+.animate-out .model-3-3,
+.model-3-3 {
+	bottom:12%;
+}
+.animate-in .model-3-4,
+.animate-out .model-3-4,
+.model-3-4 {
+	bottom:16%;
+}
+.title-2,
+.subtitle-2,
+.subtitle,
+.title {
+	display:none;
+}
+.sequence-slider {
+	height:350px;
+}
+
+.kopa-intro-widget ul li {
+	width:100%;
+	margin:20px 0 0;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget {
+	display:none;
+}
+.kopa-client-widget ul li {
+	width:136px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message {
+	width:270px;
+}
+#contact-box {
+	margin-bottom:30px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:420px;
+}
+.element {
+	width:100px;
+	height:100px;
+}
+.element.width2 {
+	width:203px;
+}
+.element.height2 {
+	height:203px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:140px;
+}
+.list-container-2 ul li > a {
+	font-size:16px;
+	
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 10px;
+	display:none
+}
+
+
+.kopa-tagline-description {
+	width:100%;
+	margin-bottom:20px;
+}
+
+#bottom-sidebar .widget,
+#page-bottom .widget {
+	margin-bottom:20px;
+}
+#bottom-sidebar .widget .widget-title,
+#page-bottom .widget .widget-title {
+	margin:0 0 10px;
+}
+.kopa-intro-widget ul li .entry-title span {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:18px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:36px;
+	margin:0 0 15px;
+	font-size:20px;
+}
+
+.kopa-service-widget ul li {
+	width:46.6%;
+	margin:0 1.7% !important;
+}
+.kopa-service-widget ul {
+	margin-top:5px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+#bottom-sidebar .widget .search-form {
+	width:340px;
+}
+
+#page-footer {
+	text-align:center;
+}
+#copyright {
+	float:none;
+	text-align:center;
+	margin:15px 0 0;
+}
+#footer-menu {
+	float:none;
+	display:inline-block;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:100%;
+	margin:0 0 10px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:0 5px !important;
+	width:200px;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:-10px;
+}
+.kopa-about-page .kopa-skill {
+	width:205px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:169px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author .author-content {
+	width:265px;
+}
+.tag-box a {
+	padding:5px 10px;
+	margin-bottom:5px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+    width:339px;
+}
+#comments .comments-list .children .comment-body {
+    width:279px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:205px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:385px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.error-404 {
+	margin:20px 10% 50px;
+}
+.error-404 .left-col p {
+	font-size:80px;
+}
+.error-404 .right-col h1 {
+	font-size:26px;
+}
+#back-top {	display:none !important;}.table-3col .pricing-column {    width: 207px;}.table-4col .pricing-column {    width: 207px;}.table-5col .pricing-column {    width: 207px;}.list-container-1 ul li {	width: 65px;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
+
+@media only screen and (max-width: 479px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding:0;
+}
+.wrapper{
+    width:300px;
+}
+#main-col {
+	margin-right:0px;
+	width:100%;
+}
+.sidebar {
+	float:left;
+	width:100%;
+}
+
+#theme-option {
+	display:none;
+}
+
+/* =========================================================
+Main Content
+============================================================ */
+#header-top .hot-line {
+	display:none;
+}
+#header-top .top-link li {
+	margin:0 0 0 15px;
+}
+#header-top .search-box {
+	width:157px;
+}
+#header-top .search {
+	margin-left:20px;
+}
+#logo-image {
+	margin-top:30px;
+}
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+.cbp-af-header.cbp-af-header-shrink #mobile-menu {
+	margin:5px 0;
+}
+/*----- Sequence Slider -----*/
+.sequence-wrapper .prev {
+	left:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper .next {
+	right:20px;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+.sequence-wrapper:hover .prev {
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.sequence-wrapper:hover .next {	
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+.animate-in .title,
+.animate-in .subtitle,
+.animate-in .title-2,
+.animate-in .subtitle-2 {
+	left:3%;
+}
+.animate-in .model,
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1,
+.animate-in .model-3-1 {
+	right:3%;
+}
+.animate-in .model-3-2 {
+	right:13%;
+}
+.animate-in .model-3-3 {
+	right:35%;
+}
+.animate-in .model-3-4 {
+	right:34%;
+}
+.model-2-1 {
+	width:300px !important;
+}
+#sequence li#creative h2 {
+	font-size:18px;
+	line-height:26px;
+}
+.model {
+	width:400px;
+	bottom:28%;
+}
+.animate-in .model-2-1 {
+	bottom:30%;
+}
+.model-3-2,
+.model-3-1 {
+	width:250px;
+}
+.model-3-3 {
+	width:140px;
+}
+.model-3-4 {
+	width:50px;
+}
+#sequence li#intro h2 {
+	font-size:20px;
+}
+
+#sequence li h3 {
+	font-size:20px;
+	line-height:24px;
+}
+#sequence li h2 {
+	font-size:22px;
+}
+.animate-in .model-3-1,
+.model-3-1,
+.animate-out .model-3-1 {
+	bottom:20%;
+}
+.animate-in .model-3-2,
+.animate-out .model-3-2,
+.model-3-2 {
+	bottom:10%;
+}
+.animate-in .model-3-3,
+.animate-out .model-3-3,
+.model-3-3 {
+	bottom:12%;
+}
+.animate-in .model-3-4,
+.animate-out .model-3-4,
+.model-3-4 {
+	bottom:16%;
+}
+.title-2,
+.subtitle-2,
+.subtitle,
+.title {
+	display:none;
+}
+.sequence-slider {
+	height:350px;
+}
+#sequence li .title-3 h2 {
+	font-size:50px;
+}
+.subtitle-3 h4 {
+	font-size:24px;
+	margin:0 0 10px;
+}
+
+
+#main-content .widget .widget-title {
+	padding-left:60px;
+}
+.kopa-intro-widget ul li {
+	width:100%;
+	margin:20px 0 0;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-thumb img {
+	display:block;
+	width:100%;
+}
+.kopa-latest-post-widget ul li .entry-item .entry-content {
+	width:100%;
+}
+
+.kopa-testimonial-widget .testimonial-detail .testimonial-content {
+	padding:25px 20px 15px 60px;
+}
+
+.kopa-client-widget {
+	display:none;
+}
+.kopa-client-widget ul li {
+	width:136px;
+	margin:0 0 0 10px;
+}
+.kopa-client-widget ul li div {
+	padding:0 10px;
+}
+.kopa-contact-widget #contact-form #contact_name,
+.kopa-contact-widget #contact-form #contact_email,
+.kopa-contact-widget #contact-form #contact_subject,
+.kopa-contact-widget #contact-form #contact_message,
+.kopa-contact-widget #contact-form label.required {
+	width:100%;
+}
+.kopa-contact-widget #contact-form #submit-contact {
+	margin:0;
+}
+#contact-box {
+	margin-bottom:30px;
+}
+.contact-social-link li {
+	margin:0 0 0 5px;
+}
+.contact-social-link li a {
+	height:30px;
+	line-height:30px;
+	width:30px;
+}
+
+/**** Isotope Filtering ****/
+
+.kopa-portfolio-widget .wrapper {
+	width:300px;
+}
+.element {
+	width:100px;
+	height:100px;
+}
+.element.width2 {
+	width:203px;
+}
+.element.height2 {
+	height:203px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.list-container-2 {
+	margin-top:0;
+}
+.list-container-2 ul li {
+    width:100px;
+}
+.list-container-2 ul li > a {
+	font-size:14px;
+	text-transform:none;
+	
+}
+.list-container-2 ul li span {
+	float:left;
+	margin:0 10px;
+	display:none
+}
+
+
+.kopa-tagline-description {
+	width:100%;
+	margin-bottom:20px;
+}
+
+#bottom-sidebar .widget,
+#page-bottom .widget {
+	margin-bottom:20px;
+}
+#bottom-sidebar .widget .widget-title,
+#page-bottom .widget .widget-title {
+	margin:0 0 10px;
+}
+.kopa-intro-widget ul li .entry-title span {
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:18px;
+}
+.kopa-intro-widget ul li .entry-title {
+	line-height:36px;
+	margin:0 0 15px;
+	font-size:20px;
+}
+
+.kopa-service-widget ul li {
+	width:100%;
+	margin:20px 0 0;
+}
+.kopa-service-widget ul {
+	margin-top:5px;
+}
+.kopa-service-widget ul li .service-title {
+	margin:0 0 10px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+#page-bottom .widget ul li {
+	margin-top:15px;
+	padding-top:15px;
+}
+#page-bottom .kopa-widget-best-seller .entry-thumb,
+#page-bottom .kopa-widget-latest-review .entry-thumb {
+	margin-right:10px;
+}
+
+.flickr-wrap {
+	margin-right:-10px;
+}
+.flickr-badge-image {
+	width:73px;
+	margin:0 10px 10px 0;
+}
+
+
+#page-footer {
+	text-align:center;
+}
+#copyright {
+	float:none;
+	text-align:center;
+	margin:15px 0 0;
+}
+#footer-menu {
+	float:none;
+	display:inline-block;
+}
+#footer-menu li {
+	margin:0 0 0 10px;
+}
+#bottom-sidebar .newsletter-form .email {
+	width:213px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.kopa-about-widget .entry-thumb {
+	width:100%;
+	margin:0 0 10px;
+}
+
+.kopa-our-team-widget ul li {
+	margin:25px 0 0;
+	width:100%;
+}
+.kopa-about-page .kopa-skill-wrapper {
+	margin-right:0px;
+}
+.kopa-about-page .kopa-skill {
+	width:100%;
+	margin-right:0px;
+}
+
+/* =========================================================
+Blog page style 2
+============================================================ */
+#main-content .sidebar .widget {
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item {
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+.kopa-article-list .entry-item .entry-thumb {
+	margin-bottom:25px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-content {
+	width:100%;
+}
+.kopa-blog-2 .kopa-article-list .entry-item .entry-thumb audio {
+	width:100%;
+}
+.pagination ul > li > a, 
+.pagination ul > li > span {
+	padding:2px 7px;
+}
+
+/* =========================================================
+Single page for standard post
+============================================================ */
+.entry-box .entry-thumb {
+	margin-bottom:25px;
+}
+.entry-box footer p {
+	width:109px;
+}
+.entry-box footer p a.article-title {
+	font-size:16px;
+}
+.about-author {
+	padding:10px;
+}
+.about-author .avatar-thumb {
+	margin-right:10px;
+}
+.about-author .author-content {
+	width:175px;
+}
+.tag-box a {
+	padding:5px 10px;
+	margin-bottom:5px;
+}
+#comments h3, .kopa-related-post h3, #respond h3 {
+	margin:8px 0 30px;
+}
+
+.kopa-related-post ul li .entry-item .entry-thumb {
+	width:100%;
+	float:none;
+	margin: 0 0 20px 0;
+}
+.kopa-related-post ul li .entry-item .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kopa-related-post ul li .entry-item .entry-content {
+    width: 100%;
+}
+
+/*---Comments List---*/
+#comments .comment-body,
+#comments .comments-list .children .comment-body {
+    width:219px;
+}
+#comments .comments-list .children {
+	margin-left:0;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+    width:100%;
+	float:none;
+}
+#comments-form .comment-right {
+    width:100%;
+	float:none;
+}
+.kopa-single-standard-2 .entry-box .entry-thumb {
+	width:100%;
+	float:none;
+	margin:0 0 20px;
+}
+.kopa-single-standard-2 .entry-box header {
+	width:100%;
+}
+.kp-single-carousel {
+	display:none;
+}
+.loading {
+	min-height:146px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+.kopa-contact-page #contact_name, 
+.kopa-contact-page #contact_email, 
+.kopa-contact-page #contact_url, 
+.kopa-contact-page #contact_subject, 
+.kopa-contact-page #contact_phone {
+    background-position:265px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.error-404 {
+	margin:20px 10% 50px;
+}
+.error-404 .left-col p {
+	font-size:50px;
+}
+.error-404 .right-col h1 {
+	font-size:26px;
+	line-height:26px;
+}#back-top {	display:none !important;}.table-3col .pricing-column {    width: 298px;}.table-4col .pricing-column {    width: 298px;}.table-5col .pricing-column {    width: 298px;}.kopa-one-two {	margin: 0;	width: 100%;}.elements-box .kopa-button {	margin-bottom: 10px;}
+
+}
