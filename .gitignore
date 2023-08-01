@@ -1,0 +1,11 @@
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Theme
+node_modules/
+composer.lock
+assets/components/
+medmag/vendor/
